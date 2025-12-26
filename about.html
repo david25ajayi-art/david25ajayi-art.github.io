@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<link rel="stylesheet"href="style.css">
+<META CHARSET="UTF-8">
+<META NAME ="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH,INITIAL-SCALE=1.0">
+<TITLE> ABOUT ME| MINI WEBSITE</TITLE>
+</HEAD>
+<body>
+<HEADER>
+<H1> ABOUT ME<H/>
+<NAV>
+<A HREF="HOME.HTML">HOME</A>|
+<A HREF="ABOUT.HTML">ABOUT</A>|
+<A HREF="CONTACT.HTML">CONTACT</A>
+</NAV>
+</HEADER>
+<MAIN>
+<H2>
+THINGS TO KNOW ABOUT ME
+</H2>
+<IMG SRC="DAVID.PNG." ALT="WEBSITE BANNER">
+    <div class="website">
+<P class="about">Hi there! here are things you should know about me</p>
+</div>
+    <div class="glass-wrap">
+<UL class="glass-list">
+<LI> i love to play games</LI>
+<LI>i am an aspiring web developer</LI>
+<LI>i love to learn new things</LI>
+</UL>
+</div>
+<button onclick="mofe()">Describe Friend</button>
+<button onclick="david()">Describe me</button>
+
+<p id="dick" style="margin-top:20px; font-size:18px;"></p>
+<img id="photo" src="" alt="" style="width:200px; margin-top:20px;display:none;">
+</MAIN>
+<FOOTER>
+<P style="color:white">&copy;2025 property of david ajayi oluwaseun</P>
+</FOOTER>
+</body>
+<script>
+function mofe(){
+document.getElementById("dick").innerHTML=" mofe is a lazy boy he is 6'2";
+document.getElementById("photo").src="mofephoto.jpg";
+document.getElementById("photo").style.display="block";
+}
+function david(){
+document.getElementById("dick").innerHTML=" hi im david i am 18years i school in bowen university";
+document.getElementById("photo").src="me.jpg";
+document.getElementById("photo").style.display="block";
+}
+window.onload=function(){
+alert("welcome! to this page");
+};
+</script>
+</HTML>

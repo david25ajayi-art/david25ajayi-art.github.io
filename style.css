@@ -1,0 +1,108 @@
+BODY{ BACKGROUND: linear-gradient(135deg, #2b2f78 0%, #1b9aaa 100%);
+COLOR;#FFFFFF;}
+HEADER{BACKGROUND-COLOR:#222;COLOR:WHITE;TEXT-ALIGN:CENTER;PADDING:15PX;}
+NAV A{MARGIN:0 10PX;COLOR:#787775; TEXT-DECORATION:NONE; FONT-SIZE:14PX}
+MAIN{PADDING:20PX;}
+p.font
+{ color:#ffffff;
+font-family:sans-serif;}
+.glass-wrap{/*div*/ 
+    min-height: 220px;
+    padding: 24px;
+    background: linear-gradient(135deg, #2b2f78 0%, #1b9aaa 100%);
+    display: flex;
+    align-items: left;
+}
+.website{min-height: 50px;
+padding: 10px;
+border-radius: 20px;
+background: linear-gradient(135deg, #2b2f78 0%, #787775 100%);
+margin: 20px;}
+.button{
+    margin: 20px;
+}
+#mote{
+    color: #FFFFFF;
+    font-family:sans-serif
+}
+#contact a{
+    color:#f1f1f1;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px, 14px;
+    backdrop-filter:blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+#contact a:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+#contact a:visited{
+    color: #787775;
+}
+#contact a:active{
+color:#1b9aaa;
+}
+#contact{
+    color: #FFFFFF;
+}
+
+#shit{color: #FFFFFF;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+p.about{
+    color:#FFFFFF;
+}
+p.contact{
+    color: #FFFFFF;
+}
+.glass-list{/*ul*/
+    width: 320px;
+    list-style:circle;
+    margin: 0;
+    padding: 12px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px)saturate(120%);
+    -webkit-backdrop-filter: blur(10px)saturate(120%);
+    border: 10x solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+    color:#ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.glass-list li{
+    padding: 10px 12px;
+    border-radius: 10px;
+    margin: 6px 0;
+    transition: background 160ms ease, tansform 160ms ease;
+}
+.glass-list li:hover{
+    background: rgba(255,255, 255, 0.06);
+    transform: translateY(-3px);
+}
+UL{FONT-SIZE:30PX; }
+li{color:#FFFFFF;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+;font-style: oblique;}
+IMG{
+     WIDTH:100%;MAX-WIDTH:200PX;BORDER-RADIUS:10PX;
+    }
+MAIN P{FONT-SIZE:25PX;}
+FOOTER{FONT-SIZE:15PX;PADDING:0PX;BACKGROUND-COLOR:#222;COLOR:WHITE;TEXT-ALIGN:CENTER;}
+li.color{color:#ffffff; background-color:#ffffff;}
+H2{FONT-SIZE:32PX; TEXT-ALIGN:center; color:#ffffff;}
+button {
+background-color: #c3d2e6;
+transition: background-color 0.3s ease;
+border-radius: 20px;
+padding: 12px 28px;
+cursor: pointer;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: larger;
+}
+button:hover{background-color: rgb(56, 56, 66);
+box-shadow:none ;
+top: var(--press-depth);
+filter: brightness(110%);}
