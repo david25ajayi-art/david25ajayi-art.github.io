@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<link rel="stylesheet"href="style.css">
+<META CHARSET="UTF-8">
+<META NAME ="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH,INITIAL-SCALE=1.0">
+<TITLE> HOME| MINI WEBSITE</TITLE>
+</HEAD>
+<body>
+<HEADER>
+<H1> WELCOME TO MY MINI WEBSITE<H/>
+<NAV>
+<A HREF="HOME.HTML">HOME</A>|
+<A HREF="ABOUT.HTML">ABOUT</A>|
+<A HREF="CONTACT.HTML">CONTACT</A>
+</NAV>
+</HEADER>
+<MAIN>
+<H2>
+INTRODUCTION
+</H2>
+<p id="shit" style="text-align:left; font-size:18px margin-bottom:20px;";></p>
+<IMG SRC="DAVID.PNG." ALT="WEBSITE BANNER">
+    <div class="website">
+<P class="font">Hi there! Welcome to my mini website. This site has three small pages that shows little info about me</p>
+</div>
+<div class="button">
+     <button onclick="motivation()">INSPIRE ME</button>
+     </div>
+    <p id="mote" style=" border-style: double;";></p>
+    <div class="glass-wrap">
+<UL class="glass-list">
+<LI>Learn a little about me</LI>
+<LI>Check how to reach me</LI>
+<LI>Enjoy simple design</LI>
+<LI> know things about me </LI>
+<LI> I am a student of bowen university</li>
+<LI>I study software engineering</LI>
+<li> trying to make my nav bar fixed</LI>
+<LI> its probably fixed now</LI>
+</UL>
+</div>
+</MAIN>
+<FOOTER>
+<P style="color:white">&copy;2025 property of david ajayi oluwaseun</P>
+</FOOTER>
+</body>
+<script>
+const m= new Date();
+document.getElementById("shit").innerHTML=m;
+function motivation(){
+    document.getElementById("mote").innerHTML="No matter how short you are, when you get outside you will still see the sky.";
+}
+window.onload=function(){
+alert("welcome! to home page");
+};
+</script>
+</HTML>
